@@ -1,5 +1,5 @@
 import React from "react";
-import { Navbar, Nav } from "react-bootstrap";
+import { Navbar, Nav, Container } from "react-bootstrap";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 import Home from "../pages/Home";
@@ -12,28 +12,29 @@ export default function NavbarComp() {
     <Router>
       <div>
         <Navbar bg="dark" variant={"dark"} expand="lg">
-          <Navbar.Brand href="#">Adocão</Navbar.Brand>
-          <Navbar.Toggle aria-controls="navbarScroll" />
-          <Navbar.Collapse id="navbarScroll">
-            <Nav
-              className="mr-auto my-2 my-lg-0"
-              style={{ maxHeight: "100px" }}
-              navbarScroll
-            >
-              <Nav.Link as={Link} to="/home">
-                Home
-              </Nav.Link>
-              <Nav.Link as={Link} to="/about">
-                About
-              </Nav.Link>
-              <Nav.Link as={Link} to="/form">
-                Form
-              </Nav.Link>
-              <Nav.Link as={Link} to="/adoption">
-                Adoption
-              </Nav.Link>
-            </Nav>
-          </Navbar.Collapse>
+          <Container>
+            <Navbar.Brand href="#">Adocão</Navbar.Brand>
+            <Navbar.Toggle aria-controls="navbarScroll" />
+            <Navbar.Collapse id="navbarScroll">
+              <Nav
+                className="mr-auto my-2 my-lg-0"
+                style={{ maxHeight: "150px" }}
+              >
+                <Nav.Link as={Link} to="/home">
+                  Home
+                </Nav.Link>
+                <Nav.Link as={Link} to="/about">
+                  Sobre
+                </Nav.Link>
+                <Nav.Link as={Link} to="/form">
+                  Formulário
+                </Nav.Link>
+                <Nav.Link as={Link} to="/adoption">
+                  Adoção
+                </Nav.Link>
+              </Nav>
+            </Navbar.Collapse>
+          </Container>
         </Navbar>
       </div>
       <div>
