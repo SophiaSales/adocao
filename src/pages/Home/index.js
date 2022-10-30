@@ -42,7 +42,7 @@ export default function Home() {
             <h2 class="featurette-heading"> Feira de Adoção!<span class="orange-title"> Fique de olho nas nossas datas!</span>
             </h2>
             <p class="lead text-justify">Costumamos abrir nossa feira de adoção aos finais de semanas e feriados. O horário
-              é das 11h da manhã, até as 14h da tarde!</p>
+              é das 11h da manhã, até as 14h da tarde</p>
           </div>
 
           <div class="col-md-5">
