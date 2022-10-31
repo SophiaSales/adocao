@@ -1,9 +1,11 @@
 import React from "react";
 import "./about.css";
+import Footer from "../../components/Footer";
 
 export default function About() {
   return (
-    <div class="container py-4">
+    <div>
+      <div class="container py-4">
       <div class="container-about" id="aboutID">
         <div class="container-fluid py-5">
           <h1 class="title-about">Sobre nós</h1>
@@ -57,6 +59,8 @@ export default function About() {
             </div>
         </div>
       </div>
+    </div>
+    <Footer />
     </div>
   );
 }

@@ -1,9 +1,11 @@
 import React from "react";
 import "./adoption.css";
+import Footer from "../../components/Footer";
 
 export default function Adoption() {
   return (
-    <div class="album py-5 bg-light">
+    <div>
+      <div class="album py-5 bg-light">
       <div class="head">
         <h1 class="title-adoption">Quero Adotar!</h1>
         <p class="text-adoption">
@@ -154,6 +156,8 @@ export default function Adoption() {
           </div>
         </div>
       </div>
+    </div>
+    <Footer />
     </div>
   );
 }
