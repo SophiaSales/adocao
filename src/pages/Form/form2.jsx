@@ -1,10 +1,12 @@
 import React from "react";
 import "./styles.css";
 import img1 from "./images/imagem1.jpeg";
+import Footer from "../../components/Footer";
 
 export default function Form() {
   return (
-    <div class="container">
+    <div>
+      <div class="container">
         <div class="form-image">
 <img src={img1} alt="" />
         </div>
@@ -62,6 +64,8 @@ export default function Form() {
                 </div>
             </form>
         </div>
+    </div>
+    <Footer />
     </div>
   );
 }
