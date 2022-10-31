@@ -1,19 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&family=Open+Sans:wght@300;400;500;600&display=swap');
-/* * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Inter', sans-serif;
-}
-
-body {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #0c0ce94d;
-} */
 
 .container-form {
     display: flex;
@@ -21,7 +6,7 @@ body {
 }
 
 .form-image {
-    width: 50%;
+    width: 60%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -34,19 +19,23 @@ body {
 }
 
 .form {
-    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #fff;
-    padding: 3rem;
+    padding: 2rem;
 }
 
 .form-header {
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
+}
+
+.title2{
+    margin-top: 40px;
 }
 
 .login-button {
@@ -84,20 +73,18 @@ body {
 }
 
 .input-group {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 1rem 0;
+    display:flex;
+    flex-direction: column;
 }
 
 .input-box {
     display: flex;
     flex-direction: column;
-    margin-bottom: 1.1rem;
 }
 
 .input-box input {
-    margin: 0.6rem 0;
+    width: 100%;
+    margin: 0.5rem 0;
     padding: 0.8rem 1.2rem;
     border: none;
     border-radius: 10px;
@@ -127,7 +114,7 @@ body {
 .gender-group {
     display: flex;
     justify-content: space-between;
-    margin-top: 0.62rem;
+    margin-top: 2rem;
     padding: 0 .5rem;
 }
 
@@ -185,6 +172,7 @@ body {
         height: auto;
     }
     .input-group {
+        display: contents;
         flex-direction: column;
         z-index: 5;
         padding-right: 5rem;

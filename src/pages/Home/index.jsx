@@ -10,7 +10,6 @@ export default function Home() {
         src={banner}
         alt="banner"
         class="w-100"
-        style={{ marginTop: "40px" }}
       ></img>
       <div class="container marketing">
         <div class="row">
