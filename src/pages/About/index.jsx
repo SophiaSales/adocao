@@ -61,16 +61,6 @@ export default function About() {
         </div>
       </div>
     </div>
-    {/* <Router> */}
-      <div>
-        {/* <Switch> */}
-        <Link to="/form">
-          continue
-        </Link>
-        {/* <Route path="/form" component={Form}/> */}
-        {/* </Switch> */}
-      </div>
-    {/* </Router> */}
     <Footer />
     </div>
   );
