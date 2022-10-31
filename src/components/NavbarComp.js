@@ -13,12 +13,12 @@ export default function NavbarComp() {
       <div>
         <Navbar bg="dark" variant={"dark"} expand="lg">
           <Container>
-            <Navbar.Brand href="#">Adocão</Navbar.Brand>
+            <Navbar.Brand>Match Your Pet</Navbar.Brand>
             <Navbar.Toggle aria-controls="navbarScroll" />
             <Navbar.Collapse id="navbarScroll">
               <Nav
                 className="mr-auto my-2 my-lg-0"
-                style={{ maxHeight: "150px" }}
+                style={{ maxHeight: "300px", pending: "50px" }}
               >
                 <Nav.Link as={Link} to="/home">
                   Home
