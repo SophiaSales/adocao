@@ -18,7 +18,8 @@ export default function NavbarComp() {
             <Navbar.Collapse id="navbarScroll">
               <Nav
                 className="mr-auto my-2 my-lg-0"
-                style={{ maxHeight: "300px", pending: "50px" }}
+                style={{ height: "70px", alignItems: "center" }}
+                navbarScroll
               >
                 <Nav.Link as={Link} to="/home">
                   Home

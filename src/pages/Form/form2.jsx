@@ -2,7 +2,7 @@ import React from "react";
 import "./styles.css";
 import img1 from "./images/imagem1.jpeg";
 
-export default function Form() {
+export default function Form2() {
   return (
     <div class="container">
         <div class="form-image">
