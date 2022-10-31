@@ -1,6 +1,7 @@
 import React from "react";
 import "./about.css";
 import Footer from "../../components/Footer";
+import { Link } from "react-router-dom";
 
 export default function About() {
   return (
@@ -28,9 +29,9 @@ export default function About() {
           <button
             class="button-about"
             type="button"
-            onclick="location.href='form.html'"
+            onclick="location.href='index.jsx'"
           >
-            Formulário
+          <Link to="/form" style={{color:"#fff", textDecoration: "none"}}>Formulário</Link>
           </button>
         </div>
       </div>
@@ -60,6 +61,16 @@ export default function About() {
         </div>
       </div>
     </div>
+    {/* <Router> */}
+      <div>
+        {/* <Switch> */}
+        <Link to="/form">
+          continue
+        </Link>
+        {/* <Route path="/form" component={Form}/> */}
+        {/* </Switch> */}
+      </div>
+    {/* </Router> */}
     <Footer />
     </div>
   );
