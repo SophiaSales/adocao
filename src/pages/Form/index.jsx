@@ -96,11 +96,7 @@ export default function Form() {
             </div>
           </div>
 
-          <div class="continue-button">
-            <button>
-              <a href="./form.jsx">Continuar</a>
-            </button>
-          </div><div class="container">
+<div class="container">
         <div class="form">
             <form action="#">
                 <div class="form-header">
